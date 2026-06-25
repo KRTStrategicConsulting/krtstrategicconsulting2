@@ -54,12 +54,22 @@ display:flex;
 justify-content:space-between;
 align-items:center;
 padding:20px 0;
+min-height:40px;
 }
 
 .logo{
-font-size:1.2rem;
+display:flex;
+align-items:center;
+gap:12px;
+font-size:1.5rem;
 font-weight:700;
 color:#ebbd25;
+}
+
+.logo img{
+height:40px;
+width:auto;
+object-fit:contain;
 }
 
 .nav-links a{
@@ -115,11 +125,11 @@ padding:100px 0;
 .section-title{
 font-size:2rem;
 margin-bottom:20px;
-color:#0f172a;
+color:#ebbd25;
 }
 
 .section-subtitle{
-color:#64748b;
+color:#fafafa;
 margin-bottom:50px;
 }
 
@@ -180,8 +190,8 @@ text-decoration:none;
 }
 
 footer{
-background:#0f172a;
-color:white;
+background:#fafafa;
+color:#0f172a;
 padding:40px 0;
 text-align:center;
 }
@@ -206,10 +216,12 @@ display:none;
 <nav>
 <div class="container nav-container">
 
-<div class="logo">
-KRT Strategic Consulting
-</div>
 
+<div class="logo">
+<img src="logo.png" alt="KRT Strategic Consulting Logo">
+<span>KRT Strategic Consulting</span>
+</div>
+  
 <div class="nav-links">
 <a href="#services">Services</a>
 <a href="#industries">Industries</a>
@@ -229,11 +241,50 @@ Driving Business Performance Through Strategy, Technology and Hands-On Execution
 </h1>
 
 <p>
-KRT Strategic Consulting supports organizations in general management, project management, finance and IT with strategic advisory,
+KRT Strategic Consulting supports organizations in a wide range of industries with general management, project management, finance and IT with strategic advisory,
 performance improvement and hands-on execution.
 </p>
 
 <a href="#contact" class="btn">Contact Us</a>
+
+</div>
+
+</section>
+
+<section id="industries">
+
+<div class="container">
+
+<h2 class="section-title">Industries</h2>
+
+<div class="grid">
+
+<div class="card">
+<h3>Automotive</h3>
+<p>OEMs, importers, dealer groups, suppliers and mobility companies</p>
+</div>
+
+<div class="card">
+<h3>Technology & GBS</h3>
+<p>3rd party service centres, internal service centres, start-ups, IT companies</p>
+</div>
+
+<div class="card">
+<h3>Manufacturing</h3>
+<p>Factories, importers, warehouses</p>
+</div>
+
+<div class="card">
+<h3>Defense</h3>
+<p>Defense software, defense manufacturing, defense R&D</p>
+</div>
+
+<div class="card">
+<h3>Energy</h3>
+<p>EV charging infrastructure, renewable energy projects, customer journey </p>
+</div>
+
+</div>
 
 </div>
 
@@ -252,35 +303,40 @@ Practical expertise forged in 20 years of international corporate experience.
 <div class="grid">
 
 <div class="card">
-<h3>Global Automotive Company</h3>
+<h3>After-sales management</h3>
 <ul>
 <li>Warranty System developpment & Optimization</li>
 <li>Warranty Policy and Procedures writing</li>
 <li>Warranty Claim treatment</li>
 <li>Technical Assistance to the workshops</li>
 <li>Customer care integration</li>
+<li>Network developpment</li>
+<li>Training</li>
 </ul>
 </div>
 
 <div class="card">
-<h3>Workshop Management</h3>
+<h3>Automotive - Workshop Management</h3>
 <ul>
-<li>Dealer network performance</li>
+<li>Workshop performance</li>
 <li>After-sales optimization</li>
 <li>EV transition initiatives</li>
 <li>Market intelligence</li>
 <li>Customer experience improvement</li>
+<li>BI Reporting</li>
+<li>AI implementation</li>
 </ul>
 </div>
 
 <div class="card">
 <h3>Project & Transformation Management</h3>
 <ul>
-<li>Software implementation projects</li>
+<li>Program management</li>
+<li>Project management</li>
 <li>Business transformation programs</li>
 <li>PMO support</li>
-<li>ERP deployment</li>
 <li>Stakeholder management</li>
+<li>Change management</li>
 </ul>
 </div>
 
@@ -288,10 +344,12 @@ Practical expertise forged in 20 years of international corporate experience.
 <h3>Data, AI & Business Intelligence</h3>
 <ul>
 <li>KPI frameworks</li>
-<li>Power BI implementation</li>
-<li>AI adoption strategy</li>
+<li>BI reporting</li>
+<li>AI strategy</li>
 <li>Process automation</li>
 <li>Management dashboards</li>
+<li>ERP deployment</li>
+<li>Software implementation projects</li>
 </ul>
 </div>
 
@@ -304,40 +362,6 @@ Practical expertise forged in 20 years of international corporate experience.
 <li>Strategic planning</li>
 <li>Investment evaluation</li>
 </ul>
-</div>
-
-</div>
-
-</div>
-
-</section>
-
-<section id="industries">
-
-<div class="container">
-
-<h2 class="section-title">Industries</h2>
-
-<div class="grid">
-
-<div class="card">
-<h3>Automotive</h3>
-<p>OEMs, importers, dealer groups, suppliers and mobility companies.</p>
-</div>
-
-<div class="card">
-<h3>Technology</h3>
-<p>Digital transformation, software implementation and operational improvement.</p>
-</div>
-
-<div class="card">
-<h3>Manufacturing</h3>
-<p>Performance management, process optimization and project execution.</p>
-</div>
-
-<div class="card">
-<h3>Professional Services</h3>
-<p>Business planning, reporting and strategic development.</p>
 </div>
 
 </div>
